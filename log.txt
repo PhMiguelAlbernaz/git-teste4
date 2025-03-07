@@ -1,4 +1,63 @@
-"ahaha"
- 
+exercício 1.1 
 
-commit feito
+git config --global user.name "name"
+
+git config --global user.email "email"
+
+exercício 1.1/1.2
+
+md  repositório  feito no GitHub 
+
+cd repositório  feito no GitHub
+
+git init 
+
+git remote add origin  https://github.com/PhMiguelAlbernaz/git-teste4.git
+
+git clone  https://github.com/PhMiguelAlbernaz/git-teste4.git
+
+cd repositório  feito no GitHub
+
+echo "message" >> log.txt
+
+git add log.txt
+
+git commit -m "message de commit"
+
+ exercício 1.3
+
+git push origin main 
+
+exercício 1.4
+
+git checkout -b "novabranch"
+
+echo "message">> novo__ficheiro.txt
+
+git add novo__ficheiro.txt
+
+git commit -b "hsahah"
+
+git push origin novabranch
+
+novo__ficheiro.txt
+
+2.1
+Abrir o github entrar na aba pull requests e criar uma pull request 
+
+
+Depois descer e aceitar a merge que aparece mesmo a baixo do ficheiro
+
+2.2 voltar ao cmd e fazer git 
+
+checkout -b "outrabranch"
+
+echo "texto">> new.txt
+
+git add new.txt
+
+git commit -b "ahhahah"
+
+git push origin outrabranch
+
+dps fazer a mesma  coisa que foi feita com a primeira branch criada apos o main que seria adicionar uma nova pull request e  confirmar a merge
